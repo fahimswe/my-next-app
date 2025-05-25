@@ -47,7 +47,7 @@ export default function LoginPage() {
 
           <div className="flex items-center justify-between">
             <div className="text-sm">
-              <a href="/auth/forgot" className="font-medium text-indigo-600 hover:text-indigo-500">
+              <a href="/auth/forgot-password" className="font-medium text-indigo-600 hover:text-indigo-500">
                 Forgot your password?
               </a>
             </div>
@@ -62,7 +62,7 @@ export default function LoginPage() {
             type="submit"
             className="w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
-            Sign In Light House Coaching Center
+            Sign In
           </button>
         </form>
       </div>
